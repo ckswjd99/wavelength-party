@@ -1,0 +1,18 @@
+/* for body and id 'app', make its size to be full screen */
+/* and set its background color to be black */
+
+html, body{ margin:0; padding:0; height:100%; width:100%; }
+#app{
+    height:100%;
+    width:100%;
+    overflow:hidden; /* or overflow:auto; if you want scrollbars */
+    background-color:black;
+    /* center the content */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#canvas{
+    image-rendering: pixelated; image-rendering: crisp-edges;
+}
